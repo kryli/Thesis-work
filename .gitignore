@@ -1,0 +1,39 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+dodogo_env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Private data
+data/raw/*
+!data/raw/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.pkl
+
+# Generated artefacts
+notebooks/figures/*
+!notebooks/figures/.gitkeep
+*.html
+*.pdf
+
+# Thesis drafts and office files
+*.docx
+*.doc
+~$*
+
+# OS/editor noise
+.DS_Store
+.idea/
+.vscode/
