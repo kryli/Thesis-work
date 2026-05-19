@@ -1,0 +1,61 @@
+trip_id;order_status;created_at;pickup_time;accepted_at;client_phone_test;pickup_address;destination_address;trip_value;trip_distance_km;service_class
+OLD-00001;Completed;2024-06-01 06:30:00;2024-06-01 06:35:00;2024-06-01 06:31:00;+2305200000;Port Louis Sample Origin 1;Pereybere Sample Dropoff 1;204.00;2.80;Economy
+OLD-00002;Completed;2024-06-01 12:41:00;2024-06-01 12:48:00;2024-06-01 12:43:00;+2305200001;Ebene Sample Origin 2;Rose Hill Sample Dropoff 2;258.00;4.20;Comfort
+OLD-00003;Completed;2024-06-01 18:52:00;2024-06-01 19:01:00;2024-06-01 18:55:00;+2305200002;Curepipe Sample Origin 3;Vacoas Sample Dropoff 3;312.00;5.60;Minivan
+OLD-00004;Cancelled;2024-06-02 01:03:00;2024-06-02 01:14:00;2024-06-02 01:07:00;+2305200003;Quatre Bornes Sample Origin 4;Trou aux Biches Sample Dropoff 4;0.00;7.00;Economy
+OLD-00005;Driver not found;2024-06-02 07:14:00;;;+2305200004;Tamarin Sample Origin 5;Mahebourg Sample Dropoff 5;0.00;8.40;Comfort
+OLD-00006;Passenger cancelled;2024-06-02 13:25:00;2024-06-02 13:40:00;2024-06-02 13:31:00;+2305200005;Pereybere Sample Origin 6;Grand Baie Sample Dropoff 6;0.00;9.80;Minivan
+OLD-00007;Completed;2024-06-02 18:36:00;2024-06-02 18:47:00;2024-06-02 18:37:00;+2305200006;Rose Hill Sample Origin 7;Flic en Flac Sample Dropoff 7;456.00;11.20;Economy
+OLD-00008;Completed;2024-06-03 00:47:00;2024-06-03 01:00:00;2024-06-03 00:49:00;+2305200007;Vacoas Sample Origin 8;Port Louis Sample Dropoff 8;510.00;12.60;Comfort
+OLD-00009;Completed;2024-06-03 06:58:00;2024-06-03 07:13:00;2024-06-03 07:01:00;+2305200008;Trou aux Biches Sample Origin 1;Ebene Sample Dropoff 1;564.00;14.00;Minivan
+OLD-00010;Cancelled;2024-06-03 13:09:00;2024-06-03 13:26:00;2024-06-03 13:13:00;+2305200009;Mahebourg Sample Origin 2;Curepipe Sample Dropoff 2;0.00;15.40;Economy
+OLD-00011;Driver not found;2024-06-03 19:20:00;;;+2305200010;Grand Baie Sample Origin 3;Quatre Bornes Sample Dropoff 3;0.00;2.80;Comfort
+OLD-00012;Passenger cancelled;2024-06-04 00:31:00;2024-06-04 00:52:00;2024-06-04 00:37:00;+2305200011;Flic en Flac Sample Origin 4;Tamarin Sample Dropoff 4;0.00;4.20;Minivan
+OLD-00013;Completed;2024-06-04 06:42:00;2024-06-04 06:59:00;2024-06-04 06:43:00;+2305200012;Port Louis Sample Origin 5;Pereybere Sample Dropoff 5;288.00;5.60;Economy
+OLD-00014;Completed;2024-06-04 12:53:00;2024-06-04 12:59:00;2024-06-04 12:55:00;+2305200013;Ebene Sample Origin 6;Rose Hill Sample Dropoff 6;342.00;7.00;Comfort
+OLD-00015;Completed;2024-06-04 19:04:00;2024-06-04 19:12:00;2024-06-04 19:07:00;+2305200014;Curepipe Sample Origin 7;Vacoas Sample Dropoff 7;396.00;8.40;Minivan
+OLD-00016;Cancelled;2024-06-05 01:15:00;2024-06-05 01:25:00;2024-06-05 01:19:00;+2305200015;Quatre Bornes Sample Origin 8;Trou aux Biches Sample Dropoff 8;0.00;9.80;Economy
+OLD-00017;Driver not found;2024-06-05 07:26:00;;;+2305200016;Tamarin Sample Origin 1;Mahebourg Sample Dropoff 1;0.00;11.20;Comfort
+OLD-00018;Passenger cancelled;2024-06-05 12:37:00;2024-06-05 12:51:00;2024-06-05 12:43:00;+2305200017;Pereybere Sample Origin 2;Grand Baie Sample Dropoff 2;0.00;12.60;Minivan
+OLD-00019;Completed;2024-06-05 18:48:00;2024-06-05 18:58:00;2024-06-05 18:49:00;+2305200018;Rose Hill Sample Origin 3;Flic en Flac Sample Dropoff 3;540.00;14.00;Economy
+OLD-00020;Completed;2024-06-06 00:59:00;2024-06-06 01:11:00;2024-06-06 01:01:00;+2305200019;Vacoas Sample Origin 4;Port Louis Sample Dropoff 4;594.00;15.40;Comfort
+OLD-00021;Completed;2024-06-06 07:10:00;2024-06-06 07:24:00;2024-06-06 07:13:00;+2305200020;Trou aux Biches Sample Origin 5;Ebene Sample Dropoff 5;228.00;2.80;Minivan
+OLD-00022;Cancelled;2024-06-06 13:21:00;2024-06-06 13:37:00;2024-06-06 13:25:00;+2305200021;Mahebourg Sample Origin 6;Curepipe Sample Dropoff 6;0.00;4.20;Economy
+OLD-00023;Driver not found;2024-06-06 18:32:00;;;+2305200022;Grand Baie Sample Origin 7;Quatre Bornes Sample Dropoff 7;0.00;5.60;Comfort
+OLD-00024;Passenger cancelled;2024-06-07 00:43:00;2024-06-07 01:03:00;2024-06-07 00:49:00;+2305200023;Flic en Flac Sample Origin 8;Tamarin Sample Dropoff 8;0.00;7.00;Minivan
+OLD-00025;Completed;2024-06-07 06:54:00;2024-06-07 07:10:00;2024-06-07 06:55:00;+2305200024;Port Louis Sample Origin 1;Pereybere Sample Dropoff 1;372.00;8.40;Economy
+OLD-00026;Completed;2024-06-07 13:05:00;2024-06-07 13:23:00;2024-06-07 13:07:00;+2305200025;Ebene Sample Origin 2;Rose Hill Sample Dropoff 2;426.00;9.80;Comfort
+OLD-00027;Completed;2024-06-07 19:16:00;2024-06-07 19:23:00;2024-06-07 19:19:00;+2305200026;Curepipe Sample Origin 3;Vacoas Sample Dropoff 3;480.00;11.20;Minivan
+OLD-00028;Cancelled;2024-06-08 01:27:00;2024-06-08 01:36:00;2024-06-08 01:31:00;+2305200027;Quatre Bornes Sample Origin 4;Trou aux Biches Sample Dropoff 4;0.00;12.60;Economy
+OLD-00029;Driver not found;2024-06-08 06:38:00;;;+2305200028;Tamarin Sample Origin 5;Mahebourg Sample Dropoff 5;0.00;14.00;Comfort
+OLD-00030;Passenger cancelled;2024-06-08 12:49:00;2024-06-08 13:02:00;2024-06-08 12:55:00;+2305200029;Pereybere Sample Origin 6;Grand Baie Sample Dropoff 6;0.00;15.40;Minivan
+OLD-00031;Completed;2024-06-08 19:00:00;2024-06-08 19:09:00;2024-06-08 19:01:00;+2305200030;Rose Hill Sample Origin 7;Flic en Flac Sample Dropoff 7;204.00;2.80;Economy
+OLD-00032;Completed;2024-06-09 01:11:00;2024-06-09 01:22:00;2024-06-09 01:13:00;+2305200031;Vacoas Sample Origin 8;Port Louis Sample Dropoff 8;258.00;4.20;Comfort
+OLD-00033;Completed;2024-06-09 07:22:00;2024-06-09 07:35:00;2024-06-09 07:25:00;+2305200032;Trou aux Biches Sample Origin 1;Ebene Sample Dropoff 1;312.00;5.60;Minivan
+OLD-00034;Cancelled;2024-06-09 12:33:00;2024-06-09 12:48:00;2024-06-09 12:37:00;+2305200033;Mahebourg Sample Origin 2;Curepipe Sample Dropoff 2;0.00;7.00;Economy
+OLD-00035;Driver not found;2024-06-09 18:44:00;;;+2305200034;Grand Baie Sample Origin 3;Quatre Bornes Sample Dropoff 3;0.00;8.40;Comfort
+OLD-00036;Passenger cancelled;2024-06-10 00:55:00;2024-06-10 01:14:00;2024-06-10 01:01:00;+2305200035;Flic en Flac Sample Origin 4;Tamarin Sample Dropoff 4;0.00;9.80;Minivan
+OLD-00037;Completed;2024-06-10 07:06:00;2024-06-10 07:21:00;2024-06-10 07:07:00;+2305200036;Port Louis Sample Origin 5;Pereybere Sample Dropoff 5;456.00;11.20;Economy
+OLD-00038;Completed;2024-06-10 13:17:00;2024-06-10 13:34:00;2024-06-10 13:19:00;+2305200037;Ebene Sample Origin 6;Rose Hill Sample Dropoff 6;510.00;12.60;Comfort
+OLD-00039;Completed;2024-06-10 19:28:00;2024-06-10 19:47:00;2024-06-10 19:31:00;+2305200038;Curepipe Sample Origin 7;Vacoas Sample Dropoff 7;564.00;14.00;Minivan
+OLD-00040;Cancelled;2024-06-11 00:39:00;2024-06-11 00:47:00;2024-06-11 00:43:00;+2305200039;Quatre Bornes Sample Origin 8;Trou aux Biches Sample Dropoff 8;0.00;15.40;Economy
+OLD-00041;Driver not found;2024-06-11 06:50:00;;;+2305200040;Tamarin Sample Origin 1;Mahebourg Sample Dropoff 1;0.00;2.80;Comfort
+OLD-00042;Passenger cancelled;2024-06-11 13:01:00;2024-06-11 13:13:00;2024-06-11 13:07:00;+2305200041;Pereybere Sample Origin 2;Grand Baie Sample Dropoff 2;0.00;4.20;Minivan
+OLD-00043;Completed;2024-06-11 19:12:00;2024-06-11 19:20:00;2024-06-11 19:13:00;+2305200042;Rose Hill Sample Origin 3;Flic en Flac Sample Dropoff 3;288.00;5.60;Economy
+OLD-00044;Completed;2024-06-12 01:23:00;2024-06-12 01:33:00;2024-06-12 01:25:00;+2305200043;Vacoas Sample Origin 4;Port Louis Sample Dropoff 4;342.00;7.00;Comfort
+OLD-00045;Completed;2024-06-12 06:34:00;2024-06-12 06:46:00;2024-06-12 06:37:00;+2305200044;Trou aux Biches Sample Origin 5;Ebene Sample Dropoff 5;396.00;8.40;Minivan
+OLD-00046;Cancelled;2024-06-12 12:45:00;2024-06-12 12:59:00;2024-06-12 12:49:00;+2305200045;Mahebourg Sample Origin 6;Curepipe Sample Dropoff 6;0.00;9.80;Economy
+OLD-00047;Driver not found;2024-06-12 18:56:00;;;+2305200046;Grand Baie Sample Origin 7;Quatre Bornes Sample Dropoff 7;0.00;11.20;Comfort
+OLD-00048;Passenger cancelled;2024-06-13 01:07:00;2024-06-13 01:25:00;2024-06-13 01:13:00;+2305200047;Flic en Flac Sample Origin 8;Tamarin Sample Dropoff 8;0.00;12.60;Minivan
+OLD-00049;Completed;2024-06-13 07:18:00;2024-06-13 07:32:00;2024-06-13 07:19:00;+2305200048;Port Louis Sample Origin 1;Pereybere Sample Dropoff 1;540.00;14.00;Economy
+OLD-00050;Completed;2024-06-13 13:29:00;2024-06-13 13:45:00;2024-06-13 13:31:00;+2305200049;Ebene Sample Origin 2;Rose Hill Sample Dropoff 2;594.00;15.40;Comfort
+OLD-00051;Completed;2024-06-13 18:40:00;2024-06-13 18:58:00;2024-06-13 18:43:00;+2305200050;Curepipe Sample Origin 3;Vacoas Sample Dropoff 3;228.00;2.80;Minivan
+OLD-00052;Cancelled;2024-06-14 00:51:00;2024-06-14 01:11:00;2024-06-14 00:55:00;+2305200051;Quatre Bornes Sample Origin 4;Trou aux Biches Sample Dropoff 4;0.00;4.20;Economy
+OLD-00053;Driver not found;2024-06-14 07:02:00;;;+2305200052;Tamarin Sample Origin 5;Mahebourg Sample Dropoff 5;0.00;5.60;Comfort
+OLD-00054;Passenger cancelled;2024-06-14 13:13:00;2024-06-14 13:24:00;2024-06-14 13:19:00;+2305200053;Pereybere Sample Origin 6;Grand Baie Sample Dropoff 6;0.00;7.00;Minivan
+OLD-00055;Completed;2024-06-14 19:24:00;2024-06-14 19:31:00;2024-06-14 19:25:00;+2305200054;Rose Hill Sample Origin 7;Flic en Flac Sample Dropoff 7;372.00;8.40;Economy
+OLD-00056;Completed;2024-06-15 00:35:00;2024-06-15 00:44:00;2024-06-15 00:37:00;+2305200055;Vacoas Sample Origin 8;Port Louis Sample Dropoff 8;426.00;9.80;Comfort
+OLD-00057;Completed;2024-06-15 06:46:00;2024-06-15 06:57:00;2024-06-15 06:49:00;+2305200056;Trou aux Biches Sample Origin 1;Ebene Sample Dropoff 1;480.00;11.20;Minivan
+OLD-00058;Cancelled;2024-06-15 12:57:00;2024-06-15 13:10:00;2024-06-15 13:01:00;+2305200057;Mahebourg Sample Origin 2;Curepipe Sample Dropoff 2;0.00;12.60;Economy
+OLD-00059;Driver not found;2024-06-15 19:08:00;;;+2305200058;Grand Baie Sample Origin 3;Quatre Bornes Sample Dropoff 3;0.00;14.00;Comfort
+OLD-00060;Passenger cancelled;2024-06-16 01:19:00;2024-06-16 01:36:00;2024-06-16 01:25:00;+2305200059;Flic en Flac Sample Origin 4;Tamarin Sample Dropoff 4;0.00;15.40;Minivan

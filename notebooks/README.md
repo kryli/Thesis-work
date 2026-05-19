@@ -7,10 +7,12 @@ The thesis document is not included in this repository. The guide below shows
 which notebook is connected to each thesis section and what type of analysis it
 contains.
 
-The private source data are not included. To run the notebooks, place the
-required CSV files in `data/raw/`. Saved outputs are kept where they help review
-the analysis, but sensitive company information is shown through indexes,
-shares, percentages or model metrics instead of absolute financial values.
+The original source exports are not included. To run the notebooks, place the
+required CSV files in `data/raw/`. Small synthetic CSV files are available in
+`data/sample/` to show the field structure and value formats. These sample files
+are not used for the numerical results in the thesis. Saved outputs are kept
+where they help review the analysis, with company financial values shown through
+indexes, shares, percentages or model metrics instead of absolute values.
 
 ## 01_eda_full_analysis.ipynb
 

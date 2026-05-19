@@ -1,0 +1,61 @@
+order_id;created_at;order_status;tariff;order_source;driver_name;client_phone_test;driver_phone_test;pickup_address;destination_address;pickup_area;trip_value;trip_distance_km;cash_component;driver_commission
+NEW-00001;01.01.2026 07:15;completed;Economy;mobile_app;Driver 001;+2307100000;+23058000000;Grand Baie Sample Pickup 1;Curepipe Sample Destination 1;Grand Baie;229,60;3,20;0,00;34,44
+NEW-00002;01.01.2026 14:22;completed;Comfort;dispatcher;Driver 002;+2305100001;+23058000001;Flic en Flac Sample Pickup 2;Quatre Bornes Sample Destination 2;Flic en Flac;306,40;5,30;306,40;45,96
+NEW-00003;01.01.2026 21:29;completed;Minivan;web;Driver 003;+2305100002;+23058000002;Port Louis Sample Pickup 3;Tamarin Sample Destination 3;Port Louis;383,20;7,40;383,20;57,48
+NEW-00004;02.01.2026 04:36;cancelled_by_client;Economy;mobile_app;Driver 004;+2305100003;+23058000003;Ebene Sample Pickup 4;Pereybere Sample Destination 4;Ebene;0,00;8,30;0,00;0,00
+NEW-00005;02.01.2026 03:43;driver_not_found;Comfort;dispatcher;;+2305100004;;Curepipe Sample Pickup 5;Rose Hill Sample Destination 5;Curepipe;0,00;10,40;0,00;0,00
+NEW-00006;02.01.2026 10:50;wait_too_long;Minivan;web;Driver 006;+2307100005;+23058000005;Quatre Bornes Sample Pickup 6;Vacoas Sample Destination 6;Quatre Bornes;0,00;12,50;0,00;0,00
+NEW-00007;02.01.2026 17:57;created_by_mistake;Economy;mobile_app;Driver 007;+2305100006;+23058000006;Tamarin Sample Pickup 7;Trou aux Biches Sample Destination 7;Tamarin;0,00;13,40;0,00;0,00
+NEW-00008;03.01.2026 01:04;completed;Comfort;dispatcher;Driver 008;+2305100007;+23058000007;Pereybere Sample Pickup 8;Mahebourg Sample Destination 1;Pereybere;610,00;15,50;610,00;91,50
+NEW-00009;03.01.2026 00:11;completed;Minivan;web;Driver 009;+2305100008;+23058000008;Rose Hill Sample Pickup 9;Grand Baie Sample Destination 2;Rose Hill;686,80;17,60;0,00;103,02
+NEW-00010;03.01.2026 06:18;completed;Economy;mobile_app;Driver 010;+2305100009;+23058000009;Vacoas Sample Pickup 1;Flic en Flac Sample Destination 3;Vacoas;730,00;18,50;730,00;109,50
+NEW-00011;03.01.2026 13:25;cancelled_by_client;Comfort;dispatcher;Driver 011;+2307100010;+23058000010;Trou aux Biches Sample Pickup 2;Port Louis Sample Destination 4;Trou aux Biches;0,00;20,60;0,00;0,00
+NEW-00012;03.01.2026 20:32;driver_not_found;Minivan;web;;+331100011;;Mahebourg Sample Pickup 3;Ebene Sample Destination 5;Mahebourg;0,00;4,00;0,00;0,00
+NEW-00013;03.01.2026 19:39;wait_too_long;Economy;mobile_app;Driver 013;+2305100012;+23058000012;Grand Baie Sample Pickup 4;Curepipe Sample Destination 6;Grand Baie;0,00;4,90;0,00;0,00
+NEW-00014;04.01.2026 02:46;created_by_mistake;Comfort;dispatcher;Driver 014;+2305100013;+23058000013;Flic en Flac Sample Pickup 5;Quatre Bornes Sample Destination 7;Flic en Flac;0,00;7,00;0,00;0,00
+NEW-00015;04.01.2026 09:53;completed;Minivan;web;Driver 015;+2305100014;+23058000014;Port Louis Sample Pickup 6;Tamarin Sample Destination 1;Port Louis;466,80;9,10;466,80;70,02
+NEW-00016;04.01.2026 17:00;completed;Economy;mobile_app;Driver 016;+2307100015;+23058000015;Ebene Sample Pickup 7;Pereybere Sample Destination 2;Ebene;420,00;10,00;420,00;63,00
+NEW-00017;04.01.2026 16:07;completed;Comfort;dispatcher;Driver 017;+2305100016;+23058000016;Curepipe Sample Pickup 8;Rose Hill Sample Destination 3;Curepipe;496,80;12,10;0,00;74,52
+NEW-00018;04.01.2026 23:14;cancelled_by_client;Minivan;web;Driver 018;+2305100017;+23058000017;Quatre Bornes Sample Pickup 9;Vacoas Sample Destination 4;Quatre Bornes;0,00;14,20;0,00;0,00
+NEW-00019;05.01.2026 05:21;driver_not_found;Economy;mobile_app;;+2305100018;;Tamarin Sample Pickup 1;Trou aux Biches Sample Destination 5;Tamarin;0,00;15,10;0,00;0,00
+NEW-00020;05.01.2026 12:28;wait_too_long;Comfort;dispatcher;Driver 020;+2305100019;+23058000019;Pereybere Sample Pickup 2;Mahebourg Sample Destination 6;Pereybere;0,00;17,20;0,00;0,00
+NEW-00021;05.01.2026 11:35;created_by_mistake;Minivan;web;Driver 021;+2307100020;+23058000020;Rose Hill Sample Pickup 3;Grand Baie Sample Destination 7;Rose Hill;0,00;19,30;0,00;0,00
+NEW-00022;05.01.2026 18:42;completed;Economy;mobile_app;Driver 022;+2305100021;+23058000021;Vacoas Sample Pickup 4;Flic en Flac Sample Destination 1;Vacoas;723,60;20,20;723,60;108,54
+NEW-00023;06.01.2026 01:49;completed;Comfort;dispatcher;Driver 023;+331100022;+23058000022;Trou aux Biches Sample Pickup 5;Port Louis Sample Destination 2;Trou aux Biches;276,80;3,60;276,80;41,52
+NEW-00024;06.01.2026 08:56;completed;Minivan;web;Driver 024;+2305100023;+23058000023;Mahebourg Sample Pickup 6;Ebene Sample Destination 3;Mahebourg;353,60;5,70;353,60;53,04
+NEW-00025;06.01.2026 08:03;cancelled_by_client;Economy;mobile_app;Driver 001;+2305100024;+23058000024;Grand Baie Sample Pickup 7;Curepipe Sample Destination 4;Grand Baie;0,00;6,60;0,00;0,00
+NEW-00026;06.01.2026 15:10;driver_not_found;Comfort;dispatcher;;+2307100025;;Flic en Flac Sample Pickup 8;Quatre Bornes Sample Destination 5;Flic en Flac;0,00;8,70;0,00;0,00
+NEW-00027;06.01.2026 21:17;wait_too_long;Minivan;web;Driver 003;+2305100026;+23058000026;Port Louis Sample Pickup 9;Tamarin Sample Destination 6;Port Louis;0,00;10,80;0,00;0,00
+NEW-00028;07.01.2026 04:24;created_by_mistake;Economy;mobile_app;Driver 004;+2305100027;+23058000027;Ebene Sample Pickup 1;Pereybere Sample Destination 7;Ebene;0,00;11,70;0,00;0,00
+NEW-00029;07.01.2026 03:31;completed;Comfort;dispatcher;Driver 005;+2305100028;+23058000028;Curepipe Sample Pickup 2;Rose Hill Sample Destination 1;Curepipe;580,40;13,80;0,00;87,06
+NEW-00030;07.01.2026 10:38;completed;Minivan;web;Driver 006;+2305100029;+23058000029;Quatre Bornes Sample Pickup 3;Vacoas Sample Destination 2;Quatre Bornes;657,20;15,90;657,20;98,58
+NEW-00031;07.01.2026 17:45;completed;Economy;mobile_app;Driver 007;+2307100030;+23058000030;Tamarin Sample Pickup 4;Trou aux Biches Sample Destination 3;Tamarin;610,40;16,80;610,40;91,56
+NEW-00032;08.01.2026 00:52;cancelled_by_client;Comfort;dispatcher;Driver 008;+2305100031;+23058000031;Pereybere Sample Pickup 5;Mahebourg Sample Destination 4;Pereybere;0,00;18,90;0,00;0,00
+NEW-00033;07.01.2026 23:59;driver_not_found;Minivan;web;;+2305100032;;Rose Hill Sample Pickup 6;Grand Baie Sample Destination 5;Rose Hill;0,00;21,00;0,00;0,00
+NEW-00034;08.01.2026 07:06;wait_too_long;Economy;mobile_app;Driver 010;+331100033;+23058000033;Vacoas Sample Pickup 7;Flic en Flac Sample Destination 6;Vacoas;0,00;3,20;0,00;0,00
+NEW-00035;08.01.2026 14:13;created_by_mistake;Comfort;dispatcher;Driver 011;+2305100034;+23058000034;Trou aux Biches Sample Pickup 8;Port Louis Sample Destination 7;Trou aux Biches;0,00;5,30;0,00;0,00
+NEW-00036;08.01.2026 20:20;completed;Minivan;web;Driver 012;+2307100035;+23058000035;Mahebourg Sample Pickup 9;Ebene Sample Destination 1;Mahebourg;347,20;7,40;347,20;52,08
+NEW-00037;08.01.2026 19:27;completed;Economy;mobile_app;Driver 013;+2305100036;+23058000036;Grand Baie Sample Pickup 1;Curepipe Sample Destination 2;Grand Baie;390,40;8,30;0,00;58,56
+NEW-00038;09.01.2026 02:34;completed;Comfort;dispatcher;Driver 014;+2305100037;+23058000037;Flic en Flac Sample Pickup 2;Quatre Bornes Sample Destination 3;Flic en Flac;467,20;10,40;467,20;70,08
+NEW-00039;09.01.2026 09:41;cancelled_by_client;Minivan;web;Driver 015;+2305100038;+23058000038;Port Louis Sample Pickup 3;Tamarin Sample Destination 4;Port Louis;0,00;12,50;0,00;0,00
+NEW-00040;09.01.2026 16:48;driver_not_found;Economy;mobile_app;;+2305100039;;Ebene Sample Pickup 4;Pereybere Sample Destination 5;Ebene;0,00;13,40;0,00;0,00
+NEW-00041;09.01.2026 15:55;wait_too_long;Comfort;dispatcher;Driver 017;+2307100040;+23058000040;Curepipe Sample Pickup 5;Rose Hill Sample Destination 6;Curepipe;0,00;15,50;0,00;0,00
+NEW-00042;09.01.2026 23:02;created_by_mistake;Minivan;web;Driver 018;+2305100041;+23058000041;Quatre Bornes Sample Pickup 6;Vacoas Sample Destination 7;Quatre Bornes;0,00;17,60;0,00;0,00
+NEW-00043;10.01.2026 06:09;completed;Economy;mobile_app;Driver 019;+2305100042;+23058000042;Tamarin Sample Pickup 7;Trou aux Biches Sample Destination 1;Tamarin;694,00;18,50;694,00;104,10
+NEW-00044;10.01.2026 12:16;completed;Comfort;dispatcher;Driver 020;+2305100043;+23058000043;Pereybere Sample Pickup 8;Mahebourg Sample Destination 2;Pereybere;770,80;20,60;770,80;115,62
+NEW-00045;10.01.2026 11:23;completed;Minivan;web;Driver 021;+331100044;+23058000044;Rose Hill Sample Pickup 9;Grand Baie Sample Destination 3;Rose Hill;324,00;4,00;0,00;48,60
+NEW-00046;10.01.2026 18:30;cancelled_by_client;Economy;mobile_app;Driver 022;+2307100045;+23058000045;Vacoas Sample Pickup 1;Flic en Flac Sample Destination 4;Vacoas;0,00;4,90;0,00;0,00
+NEW-00047;11.01.2026 01:37;driver_not_found;Comfort;dispatcher;;+2305100046;;Trou aux Biches Sample Pickup 2;Port Louis Sample Destination 5;Trou aux Biches;0,00;7,00;0,00;0,00
+NEW-00048;11.01.2026 08:44;wait_too_long;Minivan;web;Driver 024;+2305100047;+23058000047;Mahebourg Sample Pickup 3;Ebene Sample Destination 6;Mahebourg;0,00;9,10;0,00;0,00
+NEW-00049;11.01.2026 07:51;created_by_mistake;Economy;mobile_app;Driver 001;+2305100048;+23058000048;Grand Baie Sample Pickup 4;Curepipe Sample Destination 7;Grand Baie;0,00;10,00;0,00;0,00
+NEW-00050;11.01.2026 14:58;completed;Comfort;dispatcher;Driver 002;+2305100049;+23058000049;Flic en Flac Sample Pickup 5;Quatre Bornes Sample Destination 1;Flic en Flac;550,80;12,10;550,80;82,62
+NEW-00051;11.01.2026 22:05;completed;Minivan;web;Driver 003;+2307100050;+23058000050;Port Louis Sample Pickup 6;Tamarin Sample Destination 2;Port Louis;537,60;14,20;537,60;80,64
+NEW-00052;12.01.2026 05:12;completed;Economy;mobile_app;Driver 004;+2305100051;+23058000051;Ebene Sample Pickup 7;Pereybere Sample Destination 3;Ebene;580,80;15,10;580,80;87,12
+NEW-00053;12.01.2026 03:19;cancelled_by_client;Comfort;dispatcher;Driver 005;+2305100052;+23058000052;Curepipe Sample Pickup 8;Rose Hill Sample Destination 4;Curepipe;0,00;17,20;0,00;0,00
+NEW-00054;12.01.2026 10:26;driver_not_found;Minivan;web;;+2305100053;;Quatre Bornes Sample Pickup 9;Vacoas Sample Destination 5;Quatre Bornes;0,00;19,30;0,00;0,00
+NEW-00055;12.01.2026 17:33;wait_too_long;Economy;mobile_app;Driver 007;+2305100054;+23058000054;Tamarin Sample Pickup 1;Trou aux Biches Sample Destination 6;Tamarin;0,00;20,20;0,00;0,00
+NEW-00056;13.01.2026 00:40;created_by_mistake;Comfort;dispatcher;Driver 008;+2307100055;+23058000055;Pereybere Sample Pickup 2;Mahebourg Sample Destination 7;Pereybere;0,00;3,60;0,00;0,00
+NEW-00057;12.01.2026 23:47;completed;Minivan;web;Driver 009;+2305100056;+23058000056;Rose Hill Sample Pickup 3;Grand Baie Sample Destination 1;Rose Hill;317,60;5,70;0,00;47,64
+NEW-00058;13.01.2026 06:54;completed;Economy;mobile_app;Driver 010;+2305100057;+23058000057;Vacoas Sample Pickup 4;Flic en Flac Sample Destination 2;Vacoas;360,80;6,60;360,80;54,12
+NEW-00059;13.01.2026 14:01;completed;Comfort;dispatcher;Driver 011;+2305100058;+23058000058;Trou aux Biches Sample Pickup 5;Port Louis Sample Destination 3;Trou aux Biches;437,60;8,70;437,60;65,64
+NEW-00060;13.01.2026 21:08;cancelled_by_client;Minivan;web;Driver 012;+2305100059;+23058000059;Mahebourg Sample Pickup 6;Ebene Sample Destination 4;Mahebourg;0,00;10,80;0,00;0,00

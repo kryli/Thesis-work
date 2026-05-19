@@ -1,15 +1,15 @@
 # Data Description
 
-This repository does not include raw data. The analysis is based on operational
-exports from a real ride-hailing platform, so the private CSV files must be kept
-outside Git.
+This repository does not include the original operational exports used for the
+empirical results. Instead, it includes small synthetic sample CSV files with
+test values so that reviewers can inspect the expected field structure.
 
-This file describes the expected local data structure, parsing rules and the way
-each dataset is used in the notebooks.
+This file describes the expected local data structure, sample files, parsing
+rules and the way each dataset is used in the notebooks.
 
 ## Expected Local Layout
 
-To run the notebooks locally, place the private files in:
+To run the notebooks locally, place the source files in:
 
 ```text
 data/raw/orders_old_platform.csv
@@ -20,6 +20,21 @@ data/raw/clients.csv
 
 The `data/raw/` directory is ignored by Git.
 
+For schema inspection without the source exports, use:
+
+```text
+data/sample/orders_old_platform_sample.csv
+data/sample/orders_new_platform_sample.csv
+data/sample/drivers_sample.csv
+data/sample/clients_sample.csv
+```
+
+The sample files are semicolon-separated CSV files with 60 synthetic rows each.
+They contain test names, test phone numbers, test addresses and generated
+numeric values. All sample files use English field aliases for readability on
+GitHub, while the original exports use the platform-native field names listed
+below. The sample files are not used as evidence for the thesis results.
+
 ## Dataset Overview
 
 ### `orders_old_platform.csv`
@@ -27,6 +42,7 @@ The `data/raw/` directory is ignored by Git.
 - Unit of observation: one order from the earlier platform export.
 - Main role: historical demand, growth baseline and pre-migration patterns.
 - Used in notebooks: NB01.
+- Sample file: `data/sample/orders_old_platform_sample.csv`.
 
 ### `orders_new_platform.csv`
 
@@ -34,6 +50,7 @@ The `data/raw/` directory is ignored by Git.
 - Main role: main order-level source for demand, cancellations, geography,
   wait time and model features.
 - Used in notebooks: NB01, NB02, NB03, NB04, NB06.
+- Sample file: `data/sample/orders_new_platform_sample.csv`.
 
 ### `drivers.csv`
 
@@ -41,6 +58,7 @@ The `data/raw/` directory is ignored by Git.
 - Main role: driver activity, cancellation behaviour, value concentration,
   survival and churn features.
 - Used in notebooks: NB02, NB03, NB06.
+- Sample file: `data/sample/drivers_sample.csv`.
 
 ### `clients.csv`
 
@@ -48,6 +66,7 @@ The `data/raw/` directory is ignored by Git.
 - Main role: customer lifecycle, account-level order counts, bonus flag and
   user-segment proxies.
 - Used in notebooks: NB04, NB06.
+- Sample file: `data/sample/clients_sample.csv`.
 
 The old and new order exports come from different platform periods. The
 notebooks therefore avoid assuming that every field is perfectly comparable
@@ -89,8 +108,8 @@ Main analytical fields:
 | `trip_value` | Aggregate or relative trip-value analysis |
 | `trip_distance` | Trip-structure analysis |
 | `service_class` | Tariff or service category |
-| `passenger_reference` | Private join or account reference, not shown in saved outputs |
-| `driver_reference` | Private driver reference, not shown in saved outputs |
+| `passenger_reference` | Internal join or account reference, not shown in saved outputs |
+| `driver_reference` | Internal driver reference, not shown in saved outputs |
 
 Main use:
 
@@ -129,7 +148,7 @@ Main analytical fields:
 | `driver_arrived_at` | Wait-time analysis |
 | `trip_started_at` | Wait-time and trip-flow checks |
 | `completed_at` | Completion timing and lifecycle features |
-| `client_reference` | Private client reference, not shown in saved outputs |
+| `client_reference` | Internal client reference, not shown in saved outputs |
 | `driver_reference` | Driver-level joins and driver activity features |
 | `pickup_address` / `destination_address` | Route context and address-level diagnostics |
 | `pickup_area` / `destination_area` | Geography and demand-supply analysis |
@@ -178,7 +197,7 @@ Main analytical fields:
 
 | Field | Use in the analysis |
 |---|---|
-| `driver_reference` | Private join key between driver and order exports |
+| `driver_reference` | Internal join key between driver and order exports |
 | `callsign` | Dispatch or operational driver identifier |
 | `completed_orders` | Driver activity and value concentration |
 | `cancelled_orders` | Driver cancellation profile |
@@ -227,10 +246,10 @@ Main analytical fields:
 
 | Field | Use in the analysis |
 |---|---|
-| `client_reference` | Private account reference, not shown in saved outputs |
+| `client_reference` | Internal account reference, not shown in saved outputs |
 | `phone_prefix` | Aggregate local, tourist SIM or international proxy |
 | `birth_date` | Profile field, not used for individual-level output |
-| `email_reference` | Private contact field, not shown in saved outputs |
+| `email_reference` | Internal contact field, not shown in saved outputs |
 | `city` | Account city field where available |
 | `account_activity` | Platform account activity flag or status |
 | `successful_orders` | Customer lifecycle and value analysis |
@@ -312,6 +331,20 @@ After loading, the notebooks parse platform-native date, distance and value
 columns into analytical variables such as `date`, `trip_distance_km`,
 `trip_value`, `is_completed` and `is_cancelled`.
 
+To inspect the sample files:
+
+```python
+import pandas as pd
+
+sample_new = pd.read_csv(
+    "../data/sample/orders_new_platform_sample.csv",
+    sep=";",
+)
+```
+
+The sample files use UTF-8 for readability on GitHub. The original platform
+exports use the encodings shown in the loading example above.
+
 ## Data Quality Notes
 
 - The data are operational exports, not a research survey.
@@ -328,12 +361,14 @@ columns into analytical variables such as `date`, `trip_distance_km`,
 These limitations are reflected in the notebook interpretations and in the
 thesis limitations section.
 
-## Confidentiality Rules
+## Data Access Rules
 
-- Raw records are not committed.
-- Personal data such as names, phone numbers and emails is not committed.
+- Original source records are not committed.
+- Real names, phone numbers and emails are not committed.
 - Credentials, system URLs and billing identifiers are not committed.
 - Absolute company financial outputs are not shown in saved notebook outputs.
 - Value-related results are shown as indexes, shares, percentages or ratios.
+- Synthetic sample files are included only to demonstrate schema and parsing
+  expectations.
 - The notebooks are kept as code and methodological documentation for academic
   review.

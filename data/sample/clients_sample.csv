@@ -1,0 +1,61 @@
+last_name_test;first_name_test;client_phone_test;birth_date;email_test;successful_orders;failed_orders;bonus_balance;city;account_status
+SampleLast001;SampleFirst001;+2307300000;01.01.1970;client001@example.test;0;0;0,00;Grand Baie;inactive
+SampleLast002;SampleFirst002;+2305300001;02.02.1971;client002@example.test;5;2;0,00;Flic en Flac;active
+SampleLast003;SampleFirst003;+2305300002;03.03.1972;client003@example.test;10;4;0,00;Port Louis;active
+SampleLast004;SampleFirst004;+2305300003;04.04.1973;client004@example.test;15;6;0,00;Ebene;active
+SampleLast005;SampleFirst005;+2305300004;05.05.1974;client005@example.test;20;0;150,00;Curepipe;active
+SampleLast006;SampleFirst006;+2305300005;06.06.1975;client006@example.test;25;2;0,00;Quatre Bornes;active
+SampleLast007;SampleFirst007;+2307300006;07.07.1976;client007@example.test;30;4;0,00;Tamarin;active
+SampleLast008;SampleFirst008;+2305300007;08.08.1977;client008@example.test;35;6;0,00;Pereybere;active
+SampleLast009;SampleFirst009;+2305300008;09.09.1978;client009@example.test;4;0;30,00;Rose Hill;active
+SampleLast010;SampleFirst010;+2305300009;10.10.1979;client010@example.test;9;2;0,00;Vacoas;inactive
+SampleLast011;SampleFirst011;+2305300010;11.11.1980;client011@example.test;14;4;0,00;Trou aux Biches;active
+SampleLast012;SampleFirst012;+2305300011;12.12.1981;client012@example.test;19;6;0,00;Mahebourg;active
+SampleLast013;SampleFirst013;+2307300012;13.01.1982;client013@example.test;24;0;180,00;Grand Baie;active
+SampleLast014;SampleFirst014;+447300013;14.02.1983;client014@example.test;29;2;0,00;Flic en Flac;active
+SampleLast015;SampleFirst015;+2305300014;15.03.1984;client015@example.test;34;4;0,00;Port Louis;active
+SampleLast016;SampleFirst016;+2305300015;16.04.1985;client016@example.test;3;6;0,00;Ebene;active
+SampleLast017;SampleFirst017;+2305300016;17.05.1986;client017@example.test;8;0;60,00;Curepipe;active
+SampleLast018;SampleFirst018;+2305300017;18.06.1987;client018@example.test;13;2;0,00;Quatre Bornes;active
+SampleLast019;SampleFirst019;+2307300018;19.07.1988;client019@example.test;18;4;0,00;Tamarin;inactive
+SampleLast020;SampleFirst020;+2305300019;20.08.1989;client020@example.test;23;6;0,00;Pereybere;active
+SampleLast021;SampleFirst021;+2305300020;21.09.1990;client021@example.test;28;0;210,00;Rose Hill;active
+SampleLast022;SampleFirst022;+2305300021;22.10.1991;client022@example.test;33;2;0,00;Vacoas;active
+SampleLast023;SampleFirst023;+2305300022;23.11.1992;client023@example.test;2;4;0,00;Trou aux Biches;active
+SampleLast024;SampleFirst024;+2305300023;24.12.1993;client024@example.test;7;6;0,00;Mahebourg;active
+SampleLast025;SampleFirst025;+2307300024;25.01.1994;client025@example.test;12;0;90,00;Grand Baie;active
+SampleLast026;SampleFirst026;+2305300025;26.02.1995;client026@example.test;17;2;0,00;Flic en Flac;active
+SampleLast027;SampleFirst027;+447300026;01.03.1996;client027@example.test;22;4;0,00;Port Louis;active
+SampleLast028;SampleFirst028;+2305300027;02.04.1997;client028@example.test;27;6;0,00;Ebene;inactive
+SampleLast029;SampleFirst029;+2305300028;03.05.1998;client029@example.test;32;0;240,00;Curepipe;active
+SampleLast030;SampleFirst030;+2305300029;04.06.1999;client030@example.test;1;2;0,00;Quatre Bornes;active
+SampleLast031;SampleFirst031;+2307300030;05.07.2000;client031@example.test;6;4;0,00;Tamarin;active
+SampleLast032;SampleFirst032;+2305300031;06.08.2001;client032@example.test;11;6;0,00;Pereybere;active
+SampleLast033;SampleFirst033;+2305300032;07.09.1970;client033@example.test;16;0;120,00;Rose Hill;active
+SampleLast034;SampleFirst034;+2305300033;08.10.1971;client034@example.test;21;2;0,00;Vacoas;active
+SampleLast035;SampleFirst035;+2305300034;09.11.1972;client035@example.test;26;4;0,00;Trou aux Biches;active
+SampleLast036;SampleFirst036;+2305300035;10.12.1973;client036@example.test;31;6;0,00;Mahebourg;active
+SampleLast037;SampleFirst037;+2307300036;11.01.1974;client037@example.test;0;0;0,00;Grand Baie;inactive
+SampleLast038;SampleFirst038;+2305300037;12.02.1975;client038@example.test;5;2;0,00;Flic en Flac;active
+SampleLast039;SampleFirst039;+2305300038;13.03.1976;client039@example.test;10;4;0,00;Port Louis;active
+SampleLast040;SampleFirst040;+447300039;14.04.1977;client040@example.test;15;6;0,00;Ebene;active
+SampleLast041;SampleFirst041;+2305300040;15.05.1978;client041@example.test;20;0;150,00;Curepipe;active
+SampleLast042;SampleFirst042;+2305300041;16.06.1979;client042@example.test;25;2;0,00;Quatre Bornes;active
+SampleLast043;SampleFirst043;+2307300042;17.07.1980;client043@example.test;30;4;0,00;Tamarin;active
+SampleLast044;SampleFirst044;+2305300043;18.08.1981;client044@example.test;35;6;0,00;Pereybere;active
+SampleLast045;SampleFirst045;+2305300044;19.09.1982;client045@example.test;4;0;30,00;Rose Hill;active
+SampleLast046;SampleFirst046;+2305300045;20.10.1983;client046@example.test;9;2;0,00;Vacoas;inactive
+SampleLast047;SampleFirst047;+2305300046;21.11.1984;client047@example.test;14;4;0,00;Trou aux Biches;active
+SampleLast048;SampleFirst048;+2305300047;22.12.1985;client048@example.test;19;6;0,00;Mahebourg;active
+SampleLast049;SampleFirst049;+2307300048;23.01.1986;client049@example.test;24;0;180,00;Grand Baie;active
+SampleLast050;SampleFirst050;+2305300049;24.02.1987;client050@example.test;29;2;0,00;Flic en Flac;active
+SampleLast051;SampleFirst051;+2305300050;25.03.1988;client051@example.test;34;4;0,00;Port Louis;active
+SampleLast052;SampleFirst052;+2305300051;26.04.1989;client052@example.test;3;6;0,00;Ebene;active
+SampleLast053;SampleFirst053;+447300052;01.05.1990;client053@example.test;8;0;60,00;Curepipe;active
+SampleLast054;SampleFirst054;+2305300053;02.06.1991;client054@example.test;13;2;0,00;Quatre Bornes;active
+SampleLast055;SampleFirst055;+2307300054;03.07.1992;client055@example.test;18;4;0,00;Tamarin;inactive
+SampleLast056;SampleFirst056;+2305300055;04.08.1993;client056@example.test;23;6;0,00;Pereybere;active
+SampleLast057;SampleFirst057;+2305300056;05.09.1994;client057@example.test;28;0;210,00;Rose Hill;active
+SampleLast058;SampleFirst058;+2305300057;06.10.1995;client058@example.test;33;2;0,00;Vacoas;active
+SampleLast059;SampleFirst059;+2305300058;07.11.1996;client059@example.test;2;4;0,00;Trou aux Biches;active
+SampleLast060;SampleFirst060;+2305300059;08.12.1997;client060@example.test;7;6;0,00;Mahebourg;active

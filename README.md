@@ -15,7 +15,7 @@ analytical workflow behind the thesis.
 - [Notebooks](#notebooks)
 - [Data](#data)
 - [Environment](#environment)
-- [Confidentiality](#confidentiality)
+- [Data Access and Sample Files](#data-access-and-sample-files)
 
 ## Project Purpose
 
@@ -26,7 +26,8 @@ and the migration from Google Maps APIs to an OpenStreetMap-based stack.
 
 The notebooks support the empirical part of the thesis. They are included so
 that the reviewer can inspect the analysis logic, modelling choices and saved
-aggregate outputs without access to the thesis text or private operational data.
+aggregate outputs without access to the thesis text or original operational
+records.
 
 ## Repository Scope
 
@@ -35,18 +36,20 @@ Included:
 - Six Jupyter notebooks used for the empirical analysis.
 - A notebook guide with the link between notebooks and thesis sections.
 - A data guide with expected file layout, analytical fields and parsing notes.
+- Synthetic sample CSV files for schema inspection.
 - A Python dependency list.
 
 Excluded:
 
-- Raw CSV or spreadsheet data.
+- Original operational CSV or spreadsheet exports.
 - Final thesis `.docx` or `.pdf` files.
 - Credentials, access keys, billing identifiers and system URLs.
 - Personal records such as phone numbers, names and emails.
 - Absolute company financial outputs.
 
-Saved notebook outputs are kept only where they help review the work. Sensitive
-values are shown through indexes, shares, percentages, ratios or model metrics.
+Saved notebook outputs are kept only where they help review the work. Company
+financial values are shown through indexes, shares, percentages, ratios or
+model metrics.
 
 ## Repository Structure
 
@@ -56,7 +59,13 @@ values are shown through indexes, shares, percentages, ratios or model metrics.
 |-- requirements.txt
 |-- data/
 |   |-- data-description.md
-|   `-- raw/
+|   |-- raw/
+|   `-- sample/
+|       |-- README.md
+|       |-- orders_old_platform_sample.csv
+|       |-- orders_new_platform_sample.csv
+|       |-- drivers_sample.csv
+|       `-- clients_sample.csv
 `-- notebooks/
     |-- README.md
     |-- 01_eda_full_analysis.ipynb
@@ -67,7 +76,8 @@ values are shown through indexes, shares, percentages, ratios or model metrics.
     `-- 06_driver_ltv_churn_survival.ipynb
 ```
 
-`data/raw/` is ignored by Git and is used only for private local data files.
+`data/raw/` is ignored by Git and is used only for local source data files.
+`data/sample/` is tracked and contains test values only.
 
 ## Notebooks
 
@@ -95,8 +105,8 @@ For the detailed thesis-section mapping, see
 
 ## Data
 
-Raw data is not committed. To run the notebooks locally, the private files must
-be placed in:
+The original operational exports are not committed. To run the notebooks
+locally, place the source files in:
 
 ```text
 data/raw/orders_old_platform.csv
@@ -104,6 +114,10 @@ data/raw/orders_new_platform.csv
 data/raw/drivers.csv
 data/raw/clients.csv
 ```
+
+Small synthetic files are available in `data/sample/`. They show the field
+structure, separators, date formats and value formats used by the analysis.
+They are not used as evidence for the numerical results reported in the thesis.
 
 The expected file roles, analytical fields, encodings and data quality notes are
 documented in [`data/data-description.md`](data/data-description.md).
@@ -122,9 +136,13 @@ jupyter lab
 The core analysis uses pandas, NumPy, scikit-learn, XGBoost, statsmodels,
 lifelines, matplotlib and seaborn.
 
-## Confidentiality
+## Data Access and Sample Files
 
-DodoGo is a real operating company. This repository is limited to code,
-methodological notes and reviewer-facing saved outputs. It does not include raw
-operational data, thesis drafts, credentials, personal records or absolute
-company financial values.
+The repository contains code, methodological notes, saved aggregate outputs and
+synthetic sample CSV files. The sample files are included for review of the data
+structure only. They contain test values and do not represent real orders,
+clients, drivers or financial results.
+
+The empirical results in the thesis are based on the original operational
+exports. Those source records, credentials, billing identifiers, system URLs,
+personal records and thesis documents are not included in this repository.

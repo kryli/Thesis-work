@@ -13,10 +13,11 @@ dodogo_env/
 # Jupyter
 .ipynb_checkpoints/
 
-# Private data
+# Source data
 data/raw/*
 !data/raw/.gitkeep
 *.csv
+!data/sample/*.csv
 *.xlsx
 *.xls
 *.parquet
