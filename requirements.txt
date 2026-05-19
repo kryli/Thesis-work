@@ -10,5 +10,5 @@ lifelines>=0.28
 jupyterlab>=4.0
 ipykernel>=6.0
 
-# Optional: used only in the exploratory Prophet comparison block.
-prophet>=1.1
+# Optional for the exploratory forecast comparison in NB01:
+# prophet>=1.1

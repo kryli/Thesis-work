@@ -1,17 +1,16 @@
 # Notebook Guide
 
-These notebooks support the empirical chapters of the bachelor thesis
+These notebooks contain the empirical analysis used in the bachelor thesis
 **Research and Analysis of a Digital Taxi Platform Based on DodoGo**.
 
-The thesis text is not included in this repository. The mapping below explains
-which notebook supports which thesis section and which analysis appears in the
-final argument.
+The thesis document is not included in this repository. The guide below shows
+which notebook is connected to each thesis section and what type of analysis it
+contains.
 
-The notebooks retain only NDA-safe outputs for GitHub review. Aggregate model
-metrics, charts and non-sensitive summaries are kept where possible, while
-outputs that may expose exact company financial values, personal records or raw
-operational rows are cleared. The full code and markdown structure is preserved,
-but the notebooks require private data files under `data/raw/` to execute.
+The private source data are not included. To run the notebooks, place the
+required CSV files in `data/raw/`. Saved outputs are kept where they help review
+the analysis, but sensitive company information is shown through indexes,
+shares, percentages or model metrics instead of absolute financial values.
 
 ## 01_eda_full_analysis.ipynb
 
@@ -22,15 +21,15 @@ Thesis sections:
 - `3.2.3 Wait Time Dynamics`
 - `3.2.4 Price Acceptance and Area-Level Fare Patterns`
 
-Focus: platform growth, temporal demand patterns, SARIMA forecasting, wait-time
-dynamics and price-acceptance diagnostics.
+Focus: platform growth, daily and weekly demand patterns, forecasting,
+wait-time dynamics and price-acceptance checks.
 
-Main methods:
+Main contents:
 
-- Daily and monthly EDA.
+- Daily and monthly demand analysis.
 - Hour and day-of-week demand profiles.
-- SARIMA forecasting with baseline comparison.
-- Wait-time decomposition where timestamps are available.
+- SARIMA demand forecasting with a baseline comparison.
+- Wait-time analysis where timestamps are available.
 - Area-level price-acceptance diagnostics.
 
 ## 02_ml_fraud_cancellation.ipynb
@@ -39,16 +38,16 @@ Thesis section:
 
 - `3.4.1 Cancellation Prediction and Suspicious-Pattern Detection`
 
-Focus: cancellation behaviour, suspicious cancellation patterns, cancellation
-prediction and driver risk categorisation.
+Focus: cancellation behaviour, suspicious cancellation patterns and prediction
+of cancellation risk.
 
-Main methods:
+Main contents:
 
 - Cancellation reason analysis.
 - Rule-based suspicious-pattern detection.
-- XGBoost classification with stratified validation.
-- Leakage-safe behavioural feature extension.
-- Driver risk categories and value-risk matrix.
+- XGBoost cancellation model with stratified validation.
+- Behavioural feature extension.
+- Driver risk categories based on cancellation patterns.
 
 ## 03_rfm_churn_positioning.ipynb
 
@@ -58,14 +57,15 @@ Thesis sections:
 - `3.3.3 Customer Churn Prediction`
 - `3.4.2 Driver Positioning`
 
-Focus: customer segmentation, churn prediction and driver positioning.
+Focus: customer segmentation, customer churn prediction and driver positioning
+across demand areas.
 
-Main methods:
+Main contents:
 
 - RFM feature construction.
 - K-Means customer segmentation.
 - Gradient Boosting churn model.
-- Leakage-safe behavioural feature extension.
+- Behavioural feature extension.
 - District and hour-level demand-supply gap analysis.
 
 ## 04_user_survival_cohort.ipynb
@@ -76,10 +76,10 @@ Thesis sections:
 - `3.3.4 Survival and Cohort Retention`
 - `3.3.5 Customer Lifetime Value`
 
-Focus: customer lifecycle, cohort retention, tourist segmentation and first-trip
-return prediction.
+Focus: customer lifecycle, retention, tourist segmentation and first-trip return
+prediction.
 
-Main methods:
+Main contents:
 
 - Kaplan-Meier survival analysis.
 - Monthly cohort retention.
@@ -98,11 +98,11 @@ Thesis sections:
 
 Focus: migration from Google Maps APIs to an OpenStreetMap-based stack.
 
-Main methods:
+Main contents:
 
 - OSM road-network processing.
 - Address and routing architecture analysis.
-- Cost-ratio comparison.
+- Relative cost comparison.
 - Operational interpretation of the migration.
 
 ## 06_driver_ltv_churn_survival.ipynb
@@ -111,18 +111,20 @@ Thesis section:
 
 - `3.4.3 Driver Lifetime Value and Churn`
 
-Focus: driver value, survival, churn prediction and retention prioritisation.
+Focus: driver value, driver survival, churn prediction and retention
+prioritisation.
 
-Main methods:
+Main contents:
 
 - Driver value distribution and Pareto analysis.
 - Driver survival analysis.
 - Leakage-aware churn modelling.
 - Early-warning churn feature engineering.
 - Driver risk matrix.
+- Relative customer lifetime value analysis.
 
 ## Chapter 4 Link
 
-Chapter 4 does not correspond to a single notebook. It synthesizes the notebook
-findings into the As-Is / To-Be matrix, ranked recommendations and framework for
-similar island or constrained ride-hailing markets.
+Chapter 4 uses results from all notebooks. The findings are combined into the
+As-Is / To-Be matrix, ranked recommendations and a framework for similar island
+or constrained ride-hailing markets.
